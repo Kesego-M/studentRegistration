@@ -1,8 +1,8 @@
-<?php include ('includes/head.php'); ?>
+<?php include ('shared/head.php'); ?>
 <script src="/scripts/module-selector.js" defer></script>
 </head>
   <body>
-  <?php include ('includes/header.php'); ?>
+  <?php include ('shared/header.php'); ?>
     <main>
       <h1>Student Registration</h1>
       <h2>Modules</h2>
@@ -26,4 +26,4 @@
       </div>
       </section>  
     </main>
-    <?php include ('includes/footer.php'); ?>
+    <?php include ('shared/footer.php'); ?>

@@ -1,9 +1,9 @@
-<?php include ('includes/head.php'); ?>
+<?php include ('shared/head.php'); ?>
 <link rel="stylesheet" href="/styles/forms.css">
 <link rel="stylesheet" href="/styles/auth.css">
 </head>
   <body>
-  <?php include ('includes/header.php'); ?>
+  <?php include ('shared/header.php'); ?>
     <main>
       <h1>Student login</h1>
       <% if (inputData.errorMessage) {%>
@@ -26,4 +26,4 @@
         <p ><a href="">Forgot password?</a></p>
       </form>
   </main>
-  <?php include ('includes/footer.php'); ?>
+  <?php include ('shared/footer.php'); ?>

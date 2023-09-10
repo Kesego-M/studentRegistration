@@ -1,8 +1,8 @@
-<?php include ('includes/head.php'); ?>
+<?php include ('shared/head.php'); ?>
 <title>Home</title>
 </head>
   <body>
-  <?php include ('includes/header.php'); ?>
+  <?php include ('shared/header.php'); ?>
     <main>
       <h1>North-West University Student Registration App</h1>
       <p>For students - by students</p>
@@ -15,5 +15,9 @@
         <p><a class="btn" href="/student/dashboard">Go To Dashboard</a></p>
       <% } %>
 
+      <p>
+        <a class="btn" href="signup.php">Sign up</a>
+      </p>
+
   </main>
-  <?php include ('includes/footer.php'); ?>
+  <?php include ('shared/footer.php'); ?>
