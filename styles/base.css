@@ -193,29 +193,49 @@ tr {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.payment-form{
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+
+.payment-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#payment-input1{
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
   padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
-#payment-input2{
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
+
+.half-width {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+
+button {
+  display: block;
+  width: 100%;
   padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
-p{
-  text-align: center;
+
+button:hover {
+  background-color: #0056b3;
 }
 
 
