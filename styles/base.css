@@ -237,5 +237,19 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.about{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #9BFFFF;
+}
+p{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 20px;
+}
 
 
